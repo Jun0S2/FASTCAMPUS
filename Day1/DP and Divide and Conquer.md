@@ -1,4 +1,4 @@
-[##_Image|kage@XvLWf/btrjBxMFHdn/NSdXK2vGYZUr1RtknNg7k0/img.jpg|alignCenter|data-origin-width="1080" data-origin-height="1080" data-filename="11012021.jpg" data-ke-mobilestyle="widthOrigin"|||_##]
+![11012021](https://user-images.githubusercontent.com/36508552/139672480-7b7e283d-94cc-4780-a590-962ec504b16e.jpg)
 
 > ### 날짜 : 2021 년 11월 1 일
 > 
@@ -287,8 +287,9 @@ index 1 vs 0 : 7 > 5
 | --- | --- | --- | --- | --- | --- | --- |
 
 > ### 위에서 MergeSort 알고리즘을 살펴보았다.\*\*
-> 
 > 이제, 재귀를 통해 Merge Sort를 구현해보면,\*\*
+
+
 
 ```
 import java.util.Arrays;
