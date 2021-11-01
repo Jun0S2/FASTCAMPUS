@@ -25,7 +25,7 @@
 | --- | --- | --- |
 | common | 문제를 쪼개어(나누어) 풀이한다. |   |
 | differences | sub-problems: 중복되며, 이 sub-problems로 상위 문제를 풀 수 있다. | 부분 문제들은 중복되지 않는다 |
-| **Memoization을 통해 중복되는 연산 기피** | 따라서, Memo를 할 필요가 없다 |   |
+|   | **Memoization을 통해 중복되는 연산 기피** | 따라서, Memo를 할 필요가 없다 |
 
 ## DP Example
 
