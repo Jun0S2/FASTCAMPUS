@@ -388,4 +388,3 @@ public class MergeSort {
 
 재귀를 통해 배열을 반으로 분할 한 후, sort 시키는 과정을 반복하여 구현해 볼 수 있다.
 
-**패스트캠퍼스 환급 챌린지 바로가기👉 [https://bit.ly/3FVdhDa](https://bit.ly/3FVdhDa)**
