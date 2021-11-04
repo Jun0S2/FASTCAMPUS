@@ -40,7 +40,7 @@ www.acmicpc.net](https://www.acmicpc.net/problem/12865)
 
 아래는 위 문제의 코드이다.
 
-```
+```java
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
@@ -93,7 +93,7 @@ public class Main {
 
 앞서 말한, 그리디 문제를 정렬로 풀기 위해서는 Comparator나 Commparable을 사용한다.
 
-```
+```java
 import java.util.Arrays;
 
 class Burger{
@@ -118,7 +118,7 @@ public class Test01 {
 
 이유는 Arrays.sort의 기준점인 comparable에 버거 객체 (String name , int price ) 를 정렬하는 기준점이 없기 때문이다. 따라서, Comparator나 Comparable을 사용하여 기준점을 심어주면 된다.
 
-```
+```java
 Arrays.sort(arr, new Comparator<int[]>() {
 			@Override
 			public int compare(int[] o1, int[] o2) {
@@ -128,7 +128,7 @@ Arrays.sort(arr, new Comparator<int[]>() {
 
 익명 클래스에서 Comparator를 활용한 방식이다.
 
-```
+```java
 //람다식으로 처리하기
 		Arrays.sort(arr, (o1, o2)-> o1[1] - o2[1]);
 		print(arr);
@@ -136,5 +136,4 @@ Arrays.sort(arr, new Comparator<int[]>() {
 
 람다식을 이용하면 훨씬 더 짧고 간단해진다. 
 
----
 
