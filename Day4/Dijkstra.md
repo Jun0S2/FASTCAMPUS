@@ -37,7 +37,7 @@ www.cs.usfca.edu](https://www.cs.usfca.edu/~galles/visualization/Dijkstra.html)
 
 다익스트라는, 노드와 본인 노드가 연결되지 않았다면 ∞ 를, 그렇지 않다면 본인과의 거리 (본인이면 0) 을 그래프에 넣어서 inf 가 아닌 노드들을 탐색하며 최단 거리를 탐색하는 방식이다.
 
-[##_Image|kage@bSdHgB/btrjV9dlT7n/6ZutWk7kZcmdCmiBxDK8K0/img.png|alignCenter|data-origin-width="436" data-origin-height="455" data-ke-mobilestyle="widthOrigin"|||_##]
+![image](https://user-images.githubusercontent.com/36508552/140334085-d806d8df-8c88-4099-923d-bc128e796103.png)
 
 위 예시를 살펴보자.
 
@@ -59,17 +59,19 @@ www.cs.usfca.edu](https://www.cs.usfca.edu/~galles/visualization/Dijkstra.html)
 
 따라서, 다익스트라 방식으로 위 경로를 배열 형태로 나타내 보면
 
-[##_Image|kage@z2qVb/btrjYimREq8/VRvp5ODCihOMTTl1E4Faa0/img.png|alignCenter|data-origin-width="298" data-origin-height="275" data-ke-mobilestyle="widthOrigin"|빈 공간은 &infin; 이다.||_##]
+![image](https://user-images.githubusercontent.com/36508552/140334118-db162a95-6a32-474d-9124-fda477a3be40.png)
 
-또, 리스트 형태로 나타내면 
+또, 리스트 형태로 나타내면 
 
-[##_Image|kage@bsX1nc/btrjR7Veszi/YTkY69vr2NBfMdK9FPrQIK/img.png|alignCenter|data-origin-width="301" data-origin-height="319" data-ke-mobilestyle="widthOrigin"|||_##]
+![image](https://user-images.githubusercontent.com/36508552/140334175-b0b0e0b0-47b8-4c64-9274-dd26d111d2df.png)
 
 위와 같이 표현해 볼 수 있다.
 
 노드 0, 1, 2를 다익스트라 방식으로 구현하면
 
-[##_Image|kage@bfHdSv/btrjWSvloF4/dbnkTPiSgmgczMRoJsSpF0/img.gif|alignCenter|data-origin-width="600" data-origin-height="263" data-filename="dijkstra.gif" data-ke-mobilestyle="widthOrigin"|다익스트라 0~2 구현 애니메이션||_##]
+![dijkstra](https://user-images.githubusercontent.com/36508552/140334263-3bad1ac5-3822-4133-a127-160e7de40212.gif)
+
+
 
 ### 자바 코드
 
