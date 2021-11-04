@@ -90,7 +90,7 @@ www.cs.usfca.edu](https://www.cs.usfca.edu/~galles/visualization/Dijkstra.html)
 
 BFS에서 하는 방식과 동일한 방식으로, constructor를 생성한다.
 
-```
+```java
 public class Node implements Comparable <Node> {
 	int distance ; //가중치 (w) 혹은 거리
     String vertex;
@@ -104,7 +104,7 @@ public class Node implements Comparable <Node> {
 
 2\. Comparator( )
 
-```
+```java
 @override
 public int compareTo(Node node){
 	return this.distance - node.distance;
@@ -115,7 +115,7 @@ PriorityQueue를 사용하기 위해서, compareTo를 override 해주어 거리�
 
 3\. toString( )
 
-```
+```java
 @Override
 public String toString(){
 	return "node : " + this.node + ", distance : " + this.distance;
@@ -124,7 +124,7 @@ public String toString(){
 
 4\. PriorityQueue
 
-```
+```java
 import java.util.PriorityQueue;
 ```
 
@@ -132,7 +132,7 @@ import java.util.PriorityQueue;
 
 PriorityQueue의 사용 방법은 일반 큐와 비슷하다. 다른 점이 있다면, 최소힙처럼 가장 priority (현재는 compareTo에서 거리가 가장 짧은 순이 priority가 된다) 이 큐의 맨 위로 쌓이는 구조이다.
 
-```
+```java
 PriorityQueue <Node> q = new PriorityQueue<Node> (); //q 생성
 q.offer(new Node(2, "A")); //add
 q.poll();//poll out
@@ -147,7 +147,7 @@ q.peek(); //맨 위에값을 본다
 
 다익스트라 알고리즘을 구현하기 앞서, 현재 구하려는 그래프를 HashMap을 통하여 입력해야 한다.
 
-```
+```java
 HashMap<String , ArrayList<Node>> graph = new HashMap<>(); //해쉬맵 생성
  //"A"노드에 연결된 노드들과 거리를 리스트 형태로 입력
 graph.put("A", new ArrayList<Node> (Arrays.asList(new Node (8, "B"), 
@@ -158,7 +158,7 @@ graph.put("A", new ArrayList<Node> (Arrays.asList(new Node (8, "B"),
 
 해쉬.keySet() 를 이용하여 iterate 하며, get(key) 하면 관계를 프린트하여 볼 수 있다.
 
-```
+```java
 for(String key : graph.keySet()){
 	System.out.print("Node " + key + " : ");
     System.out.println(graph.get(key));
@@ -167,7 +167,7 @@ for(String key : graph.keySet()){
 
 6\. 전체 구조
 
-```
+```java
 import java.util.PriorityQueue;
 import java.util.HashMap;
 import java.util.Arrays;
