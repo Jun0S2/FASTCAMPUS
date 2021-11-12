@@ -1,9 +1,12 @@
+# 정렬 알고리즘 응용
 | 수열 정렬 | [https://www.acmicpc.net/problem/1015](https://www.acmicpc.net/problem/1015) |
 | --- | --- |
 | 카드 | [https://www.acmicpc.net/problem/11652](https://www.acmicpc.net/problem/1015) |
 | 화살표 그리기 | [https://www.acmicpc.net/problem/15970](https://www.acmicpc.net/problem/1) |
 
 위 문제를 풀이해봤다. 화살표 그리기는 시간이 없어서 아직 풀지 못했다. 후에 시간이 나면 추가적으로 업로드하겠다.
+
+## 문제 풀이
 
 ### 수열 정렬
 
