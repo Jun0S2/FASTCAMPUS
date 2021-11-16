@@ -1,14 +1,14 @@
-#Queue
+# Queue
 
 > 시청 날짜 : 11/16/2021  
 > 시청 강의 : 큐
 
-프로그래밍 중 가장 많이 쓰이는 자료구조 중 하나 : Data in and Data out 만 가능  
+프로그래밍 중 가장 많이 쓰이는 자료구조 중 하나 : Data in and Data out 만 가능  <br>
 [https://visualgo.net/en/list](https://visualgo.net/en/list) 의 queue탭에서 시뮬레이션 가능
 
 ## FIFO (First in, First out)
 
-![image](https://user-images.githubusercontent.com/36508552/141977380-1266e0cf-a86a-438c-b91b-692e75bea841.png)
+![image](https://user-images.githubusercontent.com/36508552/141977380-1266e0cf-a86a-438c-b91b-692e75bea841.png)<br>
 이미지 출처 : https://www.programiz.com/java-programming/queue
 
 -   LILO 라고도 불림 (last in last out)
