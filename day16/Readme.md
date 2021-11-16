@@ -68,7 +68,7 @@ Node info = q2.poll(); //이런식으로 info 에 맨 마지막 원소를 담아
 
 ## ArrayList 클래스로 enqueue와 dequeue 구현해보기
 
--   dequeue : 큐 데이터가 없으면 null 리넡
+-   dequeue : 큐 데이터가 없으면 null 리턴
 
 ```java
 public class MyQueue<T>{ 
