@@ -115,7 +115,7 @@ void append(int new_data)
 ​
 ```
 ​
-###노드 삭제
+### 노드 삭제
 ```java
 //노드 삭제
 void deleteNode(Node del)
