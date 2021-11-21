@@ -6,21 +6,21 @@
 
 1.  O(N)
 
-```
+```java
 int sum = 0;
 for (int i =1; i<= N ; i++) {sum+=i;}
 ```
 
 1.  O(N^2)
 
-```
+```java
 int sum = 0; 
 for(int i =1; i<=N; i++){ for (int j =1; j<=N; j++) {if (i==j}sum+= j;}
 ```
 
 1.  O (1)
 
-```
+```java
 int sum = 0; sum = N * (N+1) /2
 ```
 
@@ -57,11 +57,26 @@ O(1), O(lgN), O(N): 1억, O(NlgN): 5백만, O(N^2): 1만, O(N^3): 500, O(2^N) : 
     BufferedReader 사용 방법
     1.  Input 이 int 인 경우: Integer.parseInt()로 타입 변환
     2.  Input 이 int 배열의 요소들일 때: StringTokenizer와 split()을 사용한다 
-    3.  `import java.io.BuffredReader; import java.io.IOException; import java.io.InputStreamReader; import java.util.StringTokenizer; public class Main{ public static void main(String[] args) throws IOException{ BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); int N = Integer.parseInt(br.readLine()); //한개의 상수 형변환 int[] arr = new int[N] ; //배열 input을 담을 배열 생성 StringTokenizer st = new StringTokenizer(br.readLine()); for(int i =0; i<N; i++){ arr[i] = Integer.parseInt(st.nextToken());} //토크나이저를 다시 숫자로 parse br.close(); } } ​`
+        ```java
+        import java.io.BuffredReader; 
+        import java.io.IOException; 
+        import java.io.InputStreamReader; 
+        import java.util.StringTokenizer; 
+        public class Main{ public static void main(String[] args) throws IOException{ 
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
+            int N = Integer.parseInt(br.readLine()); //한개의 상수 형변환
+            int[] arr = new int[N] ; //배열 input을 담을 배열 생성
+            StringTokenizer st = new StringTokenizer(br.readLine()); 
+            for(int i =0; i<N; i++){ 
+                 arr[i] = Integer.parseInt(st.nextToken());
+                } //토크나이저를 다시 숫자로 parse br.close(); 
+             } 
+        } 
+        ```
 
 ### BufferedWriter 사용 방법
 
-```
+```java
 import java.io.BufferedWritier;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
@@ -78,7 +93,7 @@ br.close();
 
 ### StringBuilder 사용 방법
 
-```
+```java
 StringBuilder sb = new StringBuilder("Hey");
 sb.append("add elements");
 sb.setSize(sb.length()-1); //이렇게하면 바로 전까지 잘라내서 콤마를 없애버릴수있다
